@@ -1,0 +1,16 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1>Rainbow Filter-Practise</h1>
+
+<canvas id = "c1">
+</canvas>
+
+<p> </p>
+<h2> Load Image </h2>
+<input type="file" multiple="false" accept="image/*" id="img" onchange="loadImage()" >
+<p></p>
+<input type="button" id="b1" value="Rainbow Filter" onclick="doRainbow()">
+<p></p>
+<input type="button" value="Reset Image" onclick="doReset()" >
+<p></p>
