@@ -1,18 +1,13 @@
-h1 {
-  font-family: arial;
-  color: black;
-}
-
 body {
-  font-family: arial;
-  margin: 30px;
+  
+  margin: 30pt;
 }
 
 canvas {
+  border: 1pt solid dimgray;
   height: 200px;
-  border: 2px solid black;
 }
 
 input {
-  font-size: 14pt;
+  font-size: 12pt;
 }

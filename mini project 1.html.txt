@@ -1,20 +1,22 @@
 <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
 </script>
 
-<h1>Convert Image to Grayscale</h1>
+<h1>Filter Fun</h1>
 
-<canvas id="can">
+<canvas id="theCanvas">
 </canvas>
-<h2><b>
-  Load a Image </h2>
+
+<h2>Load Image</h2>
+
+<input type="file" multiple="false" accept="image/*" id="fileInput" onchange="loadImage()" >
+
+<h2>Choose Filter</h2>
+
 <p>
-  <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+<input type="button" value="Grayscale" onclick="doGray()" >
+<input type="button" value="Red" onclick="doRed()" >
 </p>
-<h2><b>Choose Filter</h2>
+
 <p>
-  <input type="button" value="Make Grayscale" onclick="makeGray()" >
-</p>
-  <p>
-<p>
-  <input type="button" value="Make Red" onclick="filterRed()" >
+<input type="button" value="Reset Image" onclick="reset()" >
 </p>
